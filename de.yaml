@@ -1,0 +1,231 @@
+cv:
+  name: Adil Yergaliyev
+  location: Köln, Deutschland
+  email: adil.yergaliyev@gmail.com
+  date_of_birth: 1994-02-10
+  nationality: Kasachstan
+  social_networks:
+    - network: LinkedIn
+      username: fromastwithlove
+    - network: GitHub
+      username: fromastwithlove
+  sections:
+    Berufserfahrung:
+      - company: pixolus GmbH
+        position: iOS Entwickler
+        start_date: 2017-10
+        end_date: present
+        location: Köln, Deutschland
+        highlights: 
+         - "[pixometer team](https://apps.apple.com/us/app/pixometer-team/id1554126296)"
+         - "[pixometer self](https://apps.apple.com/de/app/pixometer-self/id6444455680)"
+         - "[MeterCollect Ableser-App](https://apps.apple.com/de/app/metercollect-ablese-app/id1528505813)"
+      - company: Naimi.kz
+        position: iOS Entwickler
+        start_date: 2016-06
+        end_date: 2016-08
+        location: Astana, Kasachstan
+        highlights:
+         - "[Naimi.kz](https://apps.apple.com/us/app/naimi-kz-услуги-для-дома/id1028949260)"
+
+    Projekte:
+      - name: "[pixometer team](https://pixometer.io/loesungen/netzbetreiber/)"
+        location: Köln, Deutschland
+        summary: Mobile Zählerableselösung für die Energiewirtschaft
+        highlights:
+          - Entwicklung einer iOS-App für die automatische Zählerablesung von Strom-, Gas-, Wasser- und Wärmezählern
+          - Integration von pixometerSDK für fortschrittliches Barcode-Scannen und Digitalisierung von Zählerständen
+          - Implementierung der Offline-Funktionalität mit automatischer Backend-Synchronisation für Gebiete ohne Internetverbindung
+          - Entwicklung eines Kartennavigationssystems, das die Ableser zu bestimmten Orten führt
+          - Automatisierte CI/CD-Pipeline einschließlich TestFlight-Bereitstellung und Screenshot-Generierung
+          - Entwicklung umfassender Unit- und UI-Tests für die Qualitätssicherung
+
+      - name: "[eVIDENCE](https://pixolus.de/evidence/)"
+        start_date: 2020-01
+        end_date: 2023-01
+        location: Köln, Deutschland
+        summary: iOS-Entwicklung für staatlich gefördertes Projekt zur Digitalisierung des Energieverbrauchs
+        highlights:
+          - Entwicklung einer iOS-Lösung mit SwiftUI in Zusammenarbeit mit der STRABAG AG für ein staatlich gefördertes Projekt
+          - Mitarbeit an der Funktionalität zur Messung des Strom- und Treibstoffverbrauchs und dem Datenexport
+
+      - name: "[KOMEET](https://pixolus.de/komeet/)"
+        start_date: 2017-10
+        end_date: 2020-02
+        location: Köln, Deutschland
+        summary: iOS-App zur Verwaltung von Patientendaten für Intensivstationen
+        highlights:
+          - Entwicklung einer iOS-App mit Offline-Speicherung von Core Data, verschlüsselter Synchronisierung und nativer JavaScript-Brücke für die Verwaltung von Patientendaten in Krankenhäusern
+          - Integration des leserSDK-Frameworks zur Erfassung von Vitaldaten von nicht angeschlossenen medizinischen Geräten (Blutdruck, Sauerstoffsättigung, Herzfrequenzmessung)
+          - Entwicklung modularer Schnittstellenkomponenten, die die Integration mehrerer medizinischer Systeme mit nahtloser Online-/Offline-Datenpersistenz unterstützen
+
+      - name: "[Naimi.kz](https://apps.apple.com/us/app/naimi-kz-услуги-для-дома/id1028949260)"
+        start_date: 2016-06
+        end_date: 2016-08
+        location: Astana, Kasachstan
+        summary: On-Demand-Hausdienstleistungs-Marktplatz-App für Kasachstan
+        highlights:
+          - Altes MVC-Codebase auf VIPER-Architektur in Swift umgestellt, um Modularität und Testbarkeit zu verbessern
+          - Zusammenarbeit in einem agilen, funktionsübergreifenden Team für iterative Entwicklung und Auslieferung
+          - Verwaltung der App-Bereitstellungspipeline und Mentoring von Junior-iOS-Entwicklern zu Best Practices
+
+    Bildung:
+      - institution: Hochschule Rhein-Waal
+        area: Information Engineering and Computer Science
+        degree: M.Sc.
+        start_date: 2016-09
+        end_date: 2022-03
+        location: Kamp-Lintfort, Deutschland
+        summary: Masterarbeit ["Continuous security testing for an existing client-server application"](https://opus4.kobv.de/opus4-rhein-waal/frontdoor/index/index/docId/1374)
+
+      - institution: Suleyman Demirel University
+        area: Computing Systems and Software
+        degree: B.Sc.
+        start_date: 2012-09
+        end_date: 2026-06
+        location: Almaty, Kasachstan
+    
+    Fähigkeiten:
+      - label: Meine Umgebung
+        details: Swift, SwiftUI, UIKit, XCTest, iOS SDK, CoreData, Objective-C, SwiftData, RxSwift, Combine, React, DevSecOps, Automation
+      - label: Sprachen
+        details: "Kasachisch (Muttersprache), Russisch (Muttersprache), Deutsch (fließend), Englisch (fortgeschritten), Türkisch (Grundkenntnisse)"
+
+    Außercurriculare Aktivitäten:
+      - bullet: Schwimmen, Bouldern, Snowboarden, Reisen, Cyber Security, Hausautomation
+    
+design:
+  theme: engineeringresumes
+  page:
+    size: a4
+    top_margin: 1.5cm
+    bottom_margin: 1.5cm
+    left_margin: 1.5cm
+    right_margin: 1.5cm
+    show_page_numbering: true
+    show_last_updated_date: true
+  colors:
+    text: rgb(0, 0, 0)
+    name: rgb(0, 0, 0)
+    connections: rgb(0, 0, 0)
+    section_titles: rgb(0, 0, 0)
+    links: rgb(0, 0, 0)
+    last_updated_date_and_page_numbering: rgb(128, 128, 128)
+  text:
+    font_family: XCharter
+    font_size: 10pt
+    leading: 0.6em
+    alignment: justified
+    date_and_location_column_alignment: right
+  links:
+    underline: false
+    use_external_link_icon: true
+  header:
+    name_font_family: XCharter
+    name_font_size: 16pt
+    name_bold: false
+    photo_width: 3.5cm
+    vertical_space_between_name_and_connections: 0.5cm
+    vertical_space_between_connections_and_first_section: 0.5cm
+    horizontal_space_between_connections: 0.5cm
+    connections_font_family: XCharter
+    separator_between_connections: '|'
+    use_icons_for_connections: true
+    alignment: center
+  section_titles:
+    type: with-parial-line
+    font_family: XCharter
+    font_size: 1.2em
+    bold: true
+    small_caps: false
+    line_thickness: 0.5pt
+    vertical_space_above: 0.55cm
+    vertical_space_below: 0.3cm
+    line_type: with-full-line
+  entries:
+    date_and_location_width: 4.15cm
+    left_and_right_margin: 0cm
+    horizontal_space_between_columns: 0.1cm
+    vertical_space_between_entries: 0.4cm
+    allow_page_break_in_sections: true
+    allow_page_break_in_entries: true
+    short_second_row: false
+    show_time_spans_in: []
+  highlights:
+    bullet: •
+    top_margin: 0.25cm
+    left_margin: 0cm
+    vertical_space_between_highlights: 0.19cm
+    horizontal_space_between_bullet_and_highlight: 0.3em
+    summary_left_margin: 0cm
+  entry_types:
+    one_line_entry:
+      template: '**LABEL:** DETAILS'
+    education_entry:
+      main_column_first_row_template: '**INSTITUTION**, *DEGREE AREA* -- LOCATION'
+      degree_column_template:
+      degree_column_width: 1cm
+      main_column_second_row_template: |-
+        SUMMARY
+        HIGHLIGHTS
+      date_and_location_column_template: DATE
+    normal_entry:
+      main_column_first_row_template: '**NAME** -- **LOCATION**'
+      main_column_second_row_template: |-
+        SUMMARY
+        HIGHLIGHTS
+      date_and_location_column_template: DATE
+    experience_entry:
+      main_column_first_row_template: '**POSITION**, COMPANY -- LOCATION'
+      main_column_second_row_template: |-
+        SUMMARY
+        HIGHLIGHTS
+      date_and_location_column_template: DATE
+
+locale:
+  language: de
+  phone_number_format: international
+  page_numbering_template: NAME - Seite PAGE_NUMBER von TOTAL_PAGES
+  last_updated_date_template: Zuletzt aktualisiert am TODAY
+  date_template: MONTH_ABBREVIATION YEAR
+  month: Monat
+  months: Monate
+  year: Jahr
+  years: Jahre
+  present: aktuell
+  to: –
+  abbreviations_for_months:
+    - Jan
+    - Feb
+    - Mär
+    - Apr
+    - Mai
+    - Juni
+    - Juli
+    - Aug
+    - Sep
+    - Okt
+    - Nov
+    - Dez
+  full_names_of_months:
+    - Januar
+    - Februar
+    - März
+    - April
+    - Mai
+    - Juni
+    - Juli
+    - August
+    - September
+    - Oktober
+    - November
+    - Dezember
+rendercv_settings:
+  date: "2025-06-28"
+  bold_keywords: []
+  render_command:
+    output_folder_name: output
+    pdf_path: output/cv-de.pdf
+    dont_generate_html: true
+    dont_generate_markdown: true
+    dont_generate_png: true

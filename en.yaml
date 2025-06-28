@@ -1,0 +1,232 @@
+cv:
+  name: Adil Yergaliyev
+  location: Cologne, Germany
+  email: adil.yergaliyev@gmail.com
+  date_of_birth: 1994-02-10
+  nationality: Kazakhstan
+  social_networks:
+    - network: LinkedIn
+      username: fromastwithlove
+    - network: GitHub
+      username: fromastwithlove
+  sections:
+    experience:
+      - company: pixolus GmbH
+        position: iOS Developer
+        start_date: 2017-10
+        end_date: present
+        location: Cologne, Germany
+        highlights: 
+         - "[pixometer team](https://apps.apple.com/us/app/pixometer-team/id1554126296)"
+         - "[pixometer self](https://apps.apple.com/de/app/pixometer-self/id6444455680)"
+         - "[MeterCollect Ableser-App](https://apps.apple.com/de/app/metercollect-ablese-app/id1528505813)"
+      
+      - company: Naimi.kz
+        position: iOS Developer
+        start_date: 2016-06
+        end_date: 2016-08
+        location: Astana, Kazakhstan
+        highlights:
+         - "[Naimi.kz](https://apps.apple.com/us/app/naimi-kz-услуги-для-дома/id1028949260)"
+    
+    projects:
+      - name: "[pixometer team](https://pixometer.io/loesungen/netzbetreiber/)"
+        location: Cologne, Germany
+        summary: Mobile Meter Reading Solution for Energy Industry
+        highlights:
+          - Developed iOS app for automated meter reading across electricity, gas, water, and heat meters
+          - Integrated pixometerSDK for advanced barcode scanning and meter reading digitization  
+          - Implemented offline functionality with automatic backend synchronization for areas without internet connectivity
+          - Built map navigation system to guide meter readers to specific locations
+          - Automated CI/CD pipeline including TestFlight deployment and screenshot generation
+          - Developed comprehensive unit and UI tests for quality assurance
+      
+      - name: "[eVIDENCE](https://pixolus.de/evidence/)"
+        start_date: 2020-01
+        end_date: 2023-01
+        location: Cologne, Germany
+        summary: Mobile Energy Consumption Digitalization Solution
+        highlights:
+          - Developed iOS solution using SwiftUI in cooperation with STRABAG AG for government-funded project
+          - Worked on functionality for electricity and fuel consumption measurement and data export
+
+      - name: "[KOMEET](https://pixolus.de/komeet/)"
+        start_date: 2017-10
+        end_date: 2020-02
+        location: Cologne, Germany
+        summary: iOS Patient Data Management App for Intensive Care Units
+        highlights:
+          - Developed iOS app with Core Data offline storage, encrypted synchronization, and native-JavaScript bridge for hospital patient data management
+          - Integrated leserSDK framework to capture vital signs from non-connected medical devices (blood pressure, oxygen saturation, heart rate monitors)
+          - Designed modular interface components supporting multiple medical system integrations with seamless online/offline data persistence
+      
+      - name: "[Naimi.kz](https://apps.apple.com/us/app/naimi-kz-услуги-для-дома/id1028949260)"
+        start_date: 2016-06
+        end_date: 2016-08
+        location: Astana, Kazakhstan
+        summary: On-Demand Home Services Marketplace App for Kazakhstan
+        highlights:
+          - Refactored legacy MVC codebase to VIPER architecture using Swift for improved modularity and testability
+          - Collaborated in agile cross-functional team environment for iterative development and delivery
+          - Managed app deployment pipeline and mentored junior iOS developers on best practices
+
+    education:
+      - institution: Rhein-Waal University of Applied Sciences
+        area: Information Engineering and Computer Science
+        degree: MSc
+        start_date: 2016-09
+        end_date: 2022-03
+        location: Kamp-Lintfort, Germany
+        summary: Thesis ["Continuous security testing for an existing client-server application"](https://opus4.kobv.de/opus4-rhein-waal/frontdoor/index/index/docId/1374)
+        
+      - institution: Suleyman Demirel University
+        area: Computing Systems and Software
+        degree: BSc
+        start_date: 2012-09
+        end_date: 2026-06
+        location: Almaty, Kazakhstan
+    
+    skills:
+      - label: My environment
+        details: Swift, SwiftUI, UIKit, XCTest, iOS SDK, CoreData, Objective-C, SwiftData, RxSwift, Combine, React, DevSecOps, Automation
+      - label: Languages
+        details: "Kazakh (native), Russian (native), English (advanced), German (fluent), Turkish (limited proficiency)"
+    
+    extracurricular_activities:
+      - bullet: Swimming, Bouldering, Snowboarding, Traveling, Cyber Security, Home Automation
+
+design:
+  theme: engineeringresumes
+  page:
+    size: a4
+    top_margin: 1.5cm
+    bottom_margin: 1.5cm
+    left_margin: 1.5cm
+    right_margin: 1.5cm
+    show_page_numbering: true
+    show_last_updated_date: true
+  colors:
+    text: rgb(0, 0, 0)
+    name: rgb(0, 0, 0)
+    connections: rgb(0, 0, 0)
+    section_titles: rgb(0, 0, 0)
+    links: rgb(0, 0, 0)
+    last_updated_date_and_page_numbering: rgb(128, 128, 128)
+  text:
+    font_family: XCharter
+    font_size: 10pt
+    leading: 0.6em
+    alignment: justified
+    date_and_location_column_alignment: right
+  links:
+    underline: false
+    use_external_link_icon: true
+  header:
+    name_font_family: XCharter
+    name_font_size: 16pt
+    name_bold: false
+    photo_width: 3.5cm
+    vertical_space_between_name_and_connections: 0.5cm
+    vertical_space_between_connections_and_first_section: 0.5cm
+    horizontal_space_between_connections: 0.5cm
+    connections_font_family: XCharter
+    separator_between_connections: '|'
+    use_icons_for_connections: true
+    alignment: center
+  section_titles:
+    type: with-parial-line
+    font_family: XCharter
+    font_size: 1.2em
+    bold: true
+    small_caps: false
+    line_thickness: 0.5pt
+    vertical_space_above: 0.55cm
+    vertical_space_below: 0.3cm
+    line_type: with-full-line
+  entries:
+    date_and_location_width: 4.15cm
+    left_and_right_margin: 0cm
+    horizontal_space_between_columns: 0.1cm
+    vertical_space_between_entries: 0.4cm
+    allow_page_break_in_sections: true
+    allow_page_break_in_entries: true
+    short_second_row: false
+    show_time_spans_in: []
+  highlights:
+    bullet: •
+    top_margin: 0.25cm
+    left_margin: 0cm
+    vertical_space_between_highlights: 0.19cm
+    horizontal_space_between_bullet_and_highlight: 0.3em
+    summary_left_margin: 0cm
+  entry_types:
+    one_line_entry:
+      template: '**LABEL:** DETAILS'
+    education_entry:
+      main_column_first_row_template: '**INSTITUTION**, *DEGREE in AREA* -- LOCATION'
+      degree_column_template:
+      degree_column_width: 1cm
+      main_column_second_row_template: |-
+        SUMMARY
+        HIGHLIGHTS
+      date_and_location_column_template: DATE
+    normal_entry:
+      main_column_first_row_template: '**NAME** -- **LOCATION**'
+      main_column_second_row_template: |-
+        SUMMARY
+        HIGHLIGHTS
+      date_and_location_column_template: DATE
+    experience_entry:
+      main_column_first_row_template: '**POSITION**, COMPANY -- LOCATION'
+      main_column_second_row_template: |-
+        SUMMARY
+        HIGHLIGHTS
+      date_and_location_column_template: DATE
+    
+locale:
+  language: en
+  phone_number_format: international
+  page_numbering_template: NAME - Page PAGE_NUMBER of TOTAL_PAGES
+  last_updated_date_template: Last updated in TODAY
+  date_template: MONTH_ABBREVIATION YEAR
+  month: month
+  months: months
+  year: year
+  years: years
+  present: present
+  to: –
+  abbreviations_for_months:
+    - Jan
+    - Feb
+    - Mar
+    - Apr
+    - May
+    - June
+    - July
+    - Aug
+    - Sept
+    - Oct
+    - Nov
+    - Dec
+  full_names_of_months:
+    - January
+    - February
+    - March
+    - April
+    - May
+    - June
+    - July
+    - August
+    - September
+    - October
+    - November
+    - December
+rendercv_settings:
+  date: "2025-06-28"
+  bold_keywords: []
+  render_command:
+    output_folder_name: output
+    pdf_path: output/cv-en.pdf
+    dont_generate_html: true
+    dont_generate_markdown: true
+    dont_generate_png: true

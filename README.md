@@ -25,12 +25,12 @@ let techStack = [
 
 ### [pixometer team](https://pixometer.io/loesungen/netzbetreiber/)
 Mobile meter reading solution for energy industry
-- **Tech:** Swift, SwiftUI, Core Data, Vision Framework
+- **Tech:** Swift, Objective-C, UIKit, Core Data 
 - **Features:** Offline functionality, Image recognition, Barcode scanning
 
 ### [KOMEET](https://pixolus.de/komeet/)
 Patient data management for intensive care units
-- **Tech:** Swift, UIKit, Core Data, Camera APIs
+- **Tech:** Swift, UIKit, Core Data
 - **Features:** Encrypted data sync, Medical device scanning
 
 ### [eVIDENCE](https://pixolus.de/evidence/)

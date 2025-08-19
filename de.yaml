@@ -3,7 +3,6 @@ cv:
   location: Köln, Deutschland
   email: adil.yergaliyev@gmail.com
   date_of_birth: 1994-02-10
-  nationality: Kasachstan
   social_networks:
     - network: LinkedIn
       username: fromastwithlove
@@ -225,7 +224,7 @@ rendercv_settings:
   bold_keywords: []
   render_command:
     output_folder_name: output
-    pdf_path: output/cv-de.pdf
+    pdf_path: output/Adil_Yergaliyev_DE.pdf
     dont_generate_html: true
     dont_generate_markdown: true
     dont_generate_png: true

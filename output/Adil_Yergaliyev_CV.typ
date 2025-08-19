@@ -2,9 +2,9 @@
 #import "@preview/fontawesome:0.5.0": fa-icon
 
 #let name = "Adil Yergaliyev"
-#let locale-catalog-page-numbering-style = context { "Adil Yergaliyev - Seite " + str(here().page()) + " von " + str(counter(page).final().first()) + "" }
-#let locale-catalog-last-updated-date-style = "Zuletzt aktualisiert am Juni 2025"
-#let locale-catalog-language = "de"
+#let locale-catalog-page-numbering-style = context { "Adil Yergaliyev - Page " + str(here().page()) + " of " + str(counter(page).final().first()) + "" }
+#let locale-catalog-last-updated-date-style = "Last updated in June 2025"
+#let locale-catalog-language = "en"
 #let design-page-size = "a4"
 #let design-section-titles-font-size = 1.2em
 #let design-colors-text = rgb(0, 0, 0)
@@ -451,7 +451,7 @@
 
 // Print connections:
 #let connections-list = (
-  [#fa-icon("location-dot", size: 0.9em) #h(0.05cm)Köln, Deutschland],
+  [#fa-icon("location-dot", size: 0.9em) #h(0.05cm)Cologne, Germany],
   [#box(original-link("mailto:adil.yergaliyev@gmail.com")[#fa-icon("envelope", size: 0.9em) #h(0.05cm)adil.yergaliyev\@gmail.com])],
   [#box(original-link("https://linkedin.com/in/fromastwithlove")[#fa-icon("linkedin", size: 0.9em) #h(0.05cm)fromastwithlove])],
   [#box(original-link("https://github.com/fromastwithlove")[#fa-icon("github", size: 0.9em) #h(0.05cm)fromastwithlove])],
@@ -460,15 +460,15 @@
 
 
 
-== Berufserfahrung
+== Experience
 
 
 #two-col-entry(
   left-content: [
-    #strong[iOS Entwickler], pixolus GmbH -- Köln, Deutschland
+    #strong[iOS Developer], pixolus GmbH -- Cologne, Germany
   ],
   right-content: [
-    Okt 2017 – aktuell
+    Oct 2017 – present
   ],
 )
 #one-col-entry(
@@ -480,10 +480,10 @@
 #v(design-entries-vertical-space-between-entries)
 #two-col-entry(
   left-content: [
-    #strong[iOS Entwickler], Naimi.kz -- Astana, Kasachstan
+    #strong[iOS Developer], Naimi.kz -- Astana, Kazakhstan
   ],
   right-content: [
-    Juni 2016 – Aug 2016
+    June 2016 – Aug 2016
   ],
 )
 #one-col-entry(
@@ -494,25 +494,25 @@
 
 
 
-== Projekte
+== Projects
 
 
 
 #one-col-entry(
   content: [
-    #link("https://pixometer.io/loesungen/netzbetreiber/")[#strong[pixometer team]] -- #strong[Köln, Deutschland]
+    #link("https://pixometer.io/loesungen/netzbetreiber/")[#strong[pixometer team]] -- #strong[Cologne, Germany]
 
     #v(-design-text-leading)
-    #two-col(left-column-width: design-highlights-summary-left-margin, right-column-width: 1fr, left-content: [], right-content: [#v(design-highlights-top-margin);#align(left, [Mobile Zählerableselösung für die Energiewirtschaft])], column-gutter: 0cm)
+    #two-col(left-column-width: design-highlights-summary-left-margin, right-column-width: 1fr, left-content: [], right-content: [#v(design-highlights-top-margin);#align(left, [Mobile Meter Reading Solution for Energy Industry])], column-gutter: 0cm)
 
-#v(-design-text-leading)  #v(design-highlights-top-margin);#highlights([Entwicklung einer iOS-App für die automatische Zählerablesung von Strom-, Gas-, Wasser- und Wärmezählern],[Integration von pixometerSDK für fortschrittliches Barcode-Scannen und Digitalisierung von Zählerständen],[Implementierung der Offline-Funktionalität mit automatischer Backend-Synchronisation für Gebiete ohne Internetverbindung],[Entwicklung eines Kartennavigationssystems, das die Ableser zu bestimmten Orten führt],[Automatisierte CI\/CD-Pipeline einschließlich TestFlight-Bereitstellung und Screenshot-Generierung],[Entwicklung umfassender Unit- und UI-Tests für die Qualitätssicherung],)
+#v(-design-text-leading)  #v(design-highlights-top-margin);#highlights([Developed iOS app for automated meter reading across electricity, gas, water, and heat meters],[Integrated pixometerSDK for advanced barcode scanning and meter reading digitization],[Implemented offline functionality with automatic backend synchronization for areas without internet connectivity],[Built map navigation system to guide meter readers to specific locations],[Automated CI\/CD pipeline including TestFlight deployment and screenshot generation],[Developed comprehensive unit and UI tests for quality assurance],)
   ],
 )
 
 #v(design-entries-vertical-space-between-entries)
 #two-col-entry(
   left-content: [
-    #link("https://pixolus.de/evidence/")[#strong[eVIDENCE]] -- #strong[Köln, Deutschland]
+    #link("https://pixolus.de/evidence/")[#strong[eVIDENCE]] -- #strong[Cologne, Germany]
   ],
   right-content: [
     Jan 2020 – Jan 2023
@@ -520,64 +520,64 @@
 )
 #one-col-entry(
   content: [
-    #two-col(left-column-width: design-highlights-summary-left-margin, right-column-width: 1fr, left-content: [], right-content: [#v(design-highlights-top-margin);#align(left, [iOS-Entwicklung für staatlich gefördertes Projekt zur Digitalisierung des Energieverbrauchs])], column-gutter: 0cm)
+    #two-col(left-column-width: design-highlights-summary-left-margin, right-column-width: 1fr, left-content: [], right-content: [#v(design-highlights-top-margin);#align(left, [Mobile Energy Consumption Digitalization Solution])], column-gutter: 0cm)
 
-#v(-design-text-leading)  #v(design-highlights-top-margin);#highlights([Entwicklung einer iOS-Lösung mit SwiftUI in Zusammenarbeit mit der STRABAG AG für ein staatlich gefördertes Projekt],[Mitarbeit an der Funktionalität zur Messung des Strom- und Treibstoffverbrauchs und dem Datenexport],)
+#v(-design-text-leading)  #v(design-highlights-top-margin);#highlights([Developed iOS solution using SwiftUI in cooperation with STRABAG AG for government-funded project],[Worked on functionality for electricity and fuel consumption measurement and data export],)
   ],
 )
 
 #v(design-entries-vertical-space-between-entries)
 #two-col-entry(
   left-content: [
-    #link("https://pixolus.de/komeet/")[#strong[KOMEET]] -- #strong[Köln, Deutschland]
+    #link("https://pixolus.de/komeet/")[#strong[KOMEET]] -- #strong[Cologne, Germany]
   ],
   right-content: [
-    Okt 2017 – Feb 2020
+    Oct 2017 – Feb 2020
   ],
 )
 #one-col-entry(
   content: [
-    #two-col(left-column-width: design-highlights-summary-left-margin, right-column-width: 1fr, left-content: [], right-content: [#v(design-highlights-top-margin);#align(left, [iOS-App zur Verwaltung von Patientendaten für Intensivstationen])], column-gutter: 0cm)
+    #two-col(left-column-width: design-highlights-summary-left-margin, right-column-width: 1fr, left-content: [], right-content: [#v(design-highlights-top-margin);#align(left, [iOS Patient Data Management App for Intensive Care Units])], column-gutter: 0cm)
 
-#v(-design-text-leading)  #v(design-highlights-top-margin);#highlights([Entwicklung einer iOS-App mit Offline-Speicherung von Core Data, verschlüsselter Synchronisierung und nativer JavaScript-Brücke für die Verwaltung von Patientendaten in Krankenhäusern],[Integration des leserSDK-Frameworks zur Erfassung von Vitaldaten von nicht angeschlossenen medizinischen Geräten \(Blutdruck, Sauerstoffsättigung, Herzfrequenzmessung\)],[Entwicklung modularer Schnittstellenkomponenten, die die Integration mehrerer medizinischer Systeme mit nahtloser Online-\/Offline-Datenpersistenz unterstützen],)
+#v(-design-text-leading)  #v(design-highlights-top-margin);#highlights([Developed iOS app with Core Data offline storage, encrypted synchronization, and native-JavaScript bridge for hospital patient data management],[Integrated leserSDK framework to capture vital signs from non-connected medical devices \(blood pressure, oxygen saturation, heart rate monitors\)],[Designed modular interface components supporting multiple medical system integrations with seamless online\/offline data persistence],)
   ],
 )
 
 #v(design-entries-vertical-space-between-entries)
 #two-col-entry(
   left-content: [
-    #link("https://apps.apple.com/us/app/naimi-kz-услуги-для-дома/id1028949260")[#strong[Naimi.kz]] -- #strong[Astana, Kasachstan]
+    #link("https://apps.apple.com/us/app/naimi-kz-услуги-для-дома/id1028949260")[#strong[Naimi.kz]] -- #strong[Astana, Kazakhstan]
   ],
   right-content: [
-    Juni 2016 – Aug 2016
+    June 2016 – Aug 2016
   ],
 )
 #one-col-entry(
   content: [
-    #two-col(left-column-width: design-highlights-summary-left-margin, right-column-width: 1fr, left-content: [], right-content: [#v(design-highlights-top-margin);#align(left, [On-Demand-Hausdienstleistungs-Marktplatz-App für Kasachstan])], column-gutter: 0cm)
+    #two-col(left-column-width: design-highlights-summary-left-margin, right-column-width: 1fr, left-content: [], right-content: [#v(design-highlights-top-margin);#align(left, [On-Demand Home Services Marketplace App for Kazakhstan])], column-gutter: 0cm)
 
-#v(-design-text-leading)  #v(design-highlights-top-margin);#highlights([Altes MVC-Codebase auf VIPER-Architektur in Swift umgestellt, um Modularität und Testbarkeit zu verbessern],[Zusammenarbeit in einem agilen, funktionsübergreifenden Team für iterative Entwicklung und Auslieferung],[Verwaltung der App-Bereitstellungspipeline und Mentoring von Junior-iOS-Entwicklern zu Best Practices],)
+#v(-design-text-leading)  #v(design-highlights-top-margin);#highlights([Refactored legacy MVC codebase to VIPER architecture using Swift for improved modularity and testability],[Collaborated in agile cross-functional team environment for iterative development and delivery],[Managed app deployment pipeline and mentored junior iOS developers on best practices],)
   ],
 )
 
 
 
-== Bildung
+== Education
 
 
 // YES DATE, NO DEGREE
 #two-col-entry(
   left-content: [
-    #strong[Hochschule Rhein-Waal], #emph[M.Sc. Information Engineering and Computer Science] -- Kamp-Lintfort, Deutschland
+    #strong[Rhein-Waal University of Applied Sciences], #emph[MSc in Information Engineering and Computer Science] -- Kamp-Lintfort, Germany
   ],
   right-content: [
-    Sep 2016 – Mär 2022
+    Sept 2016 – Mar 2022
   ],
 )
 #block(
   [
     #set par(spacing: 0pt)
-    #two-col(left-column-width: design-highlights-summary-left-margin, right-column-width: 1fr, left-content: [], right-content: [#v(design-highlights-top-margin);#align(left, [Masterarbeit #link("https://opus4.kobv.de/opus4-rhein-waal/frontdoor/index/index/docId/1374")[\"Continuous security testing for an existing client-server application\"]])], column-gutter: 0cm)
+    #two-col(left-column-width: design-highlights-summary-left-margin, right-column-width: 1fr, left-content: [], right-content: [#v(design-highlights-top-margin);#align(left, [Thesis #link("https://opus4.kobv.de/opus4-rhein-waal/frontdoor/index/index/docId/1374")[\"Continuous security testing for an existing client-server application\"]])], column-gutter: 0cm)
   ],
   inset: (
     left: design-entries-left-and-right-margin,
@@ -589,10 +589,10 @@
 // YES DATE, NO DEGREE
 #two-col-entry(
   left-content: [
-    #strong[Suleyman Demirel University], #emph[B.Sc. Computing Systems and Software] -- Almaty, Kasachstan
+    #strong[Suleyman Demirel University], #emph[BSc in Computing Systems and Software] -- Almaty, Kazakhstan
   ],
   right-content: [
-    Sep 2012 – Juni 2026
+    Sept 2012 – June 2026
   ],
 )
 #block(
@@ -608,23 +608,23 @@
 
 
 
-== Fähigkeiten
+== Skills
 
 
 #one-col-entry(
-  content: [#strong[Meine Umgebung:] Swift, SwiftUI, UIKit, XCTest, iOS SDK, CoreData, Objective-C, SwiftData, RxSwift, Combine, React, DevSecOps, Automation]
+  content: [#strong[My environment:] Swift, SwiftUI, UIKit, XCTest, iOS SDK, CoreData, Objective-C, SwiftData, RxSwift, Combine, React, DevSecOps, Automation]
 )
 #v(design-entries-vertical-space-between-entries)
 #one-col-entry(
-  content: [#strong[Sprachen:] Kasachisch \(Muttersprache\), Russisch \(Muttersprache\), Deutsch \(fließend\), Englisch \(fortgeschritten\), Türkisch \(Grundkenntnisse\)]
+  content: [#strong[Languages:] Kazakh \(native\), Russian \(native\), English \(advanced\), German \(fluent\), Turkish \(limited proficiency\)]
 )
 
 
-== Außercurriculare Aktivitäten
+== Extracurricular Activities
 
 
 #one-col-entry(
-  content: [- Schwimmen, Bouldern, Snowboarden, Reisen, Cyber Security, Hausautomation],
+  content: [- Swimming, Bouldering, Snowboarding, Traveling, Cyber Security, Home Automation],
 )
 
 

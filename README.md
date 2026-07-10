@@ -45,8 +45,7 @@ On-demand home services marketplace app for Kazakhstan
 
 ## Let's Connect / Kontakt
 
-LinkedIn: [Adil Yergaliyev](https://www.linkedin.com/in/fromastwithlove)  
-Telegram: [@fromastwithlove](https://t.me/fromastwithlove)  
+LinkedIn: [Adil Yergaliyev](https://www.linkedin.com/in/fromastwithlove)   
 Email: [adil.yergaliyev@gmail.com](mailto:adil.yergaliyev@gmail.com)
 
 ---

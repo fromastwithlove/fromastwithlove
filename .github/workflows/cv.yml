@@ -1,0 +1,62 @@
+name: CV
+
+on:
+  push:
+    branches: [master]
+    paths:
+      - en.yaml
+      - de.yaml
+      - design.yaml
+      - requirements.txt
+      - .python-version
+      - .github/workflows/cv.yml
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: cv-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+
+      - uses: actions/setup-python@v7
+        with:
+          python-version-file: .python-version
+          cache: pip
+
+      - run: pip install -r requirements.txt
+
+      - run: rendercv render en.yaml
+      - run: rendercv render de.yaml
+
+      - name: Check CVs fit on one page
+        run: |
+          sudo apt-get update -qq && sudo apt-get install -y -qq poppler-utils
+          for f in output/*.pdf; do
+            pages=$(pdfinfo "$f" | awk '/^Pages:/ {print $2}')
+            echo "$f: $pages page(s)"
+            [ "$pages" -eq 1 ] || { echo "::error file=$f::$f has $pages pages, expected 1"; exit 1; }
+          done
+
+      - uses: actions/upload-artifact@v7
+        with:
+          name: cv
+          path: output/*.pdf
+
+      - name: Commit updated PDFs
+        if: github.event_name != 'pull_request' && github.ref == 'refs/heads/master'
+        run: |
+          git add output/*.pdf
+          git diff --cached --quiet && exit 0
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "Renders CV."
+          git pull --rebase
+          git push

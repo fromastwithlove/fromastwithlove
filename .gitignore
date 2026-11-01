@@ -1,1 +1,6 @@
 .DS_Store
+__pycache__/
+.venv/
+output/*
+!output/Adil_Yergaliyev_EN.pdf
+!output/Adil_Yergaliyev_DE.pdf

@@ -1,8 +1,8 @@
 cv:
   name: Adil Yergaliyev
-  location: Köln, Deutschland
+  headline: iOS Engineer · 9 Jahre native iOS-Entwicklung · Swift, SwiftUI, UIKit · KI-gestützte Entwicklung
+  location: Berlin, Deutschland
   email: adil.yergaliyev@gmail.com
-  date_of_birth: 1994-02-10
   social_networks:
     - network: LinkedIn
       username: fromastwithlove
@@ -10,65 +10,59 @@ cv:
       username: fromastwithlove
   sections:
     Berufserfahrung:
-      - company: pixolus GmbH
-        position: iOS Entwickler
-        start_date: 2017-10
+      - company: Freenow by Lyft
+        position: iOS Engineer
+        start_date: 2026-01
         end_date: present
-        location: Köln, Deutschland
-        highlights: 
-         - "[pixometer team](https://apps.apple.com/us/app/pixometer-team/id1554126296)"
-         - "[pixometer self](https://apps.apple.com/de/app/pixometer-self/id6444455680)"
-         - "[MeterCollect Ableser-App](https://apps.apple.com/de/app/metercollect-ablese-app/id1528505813)"
-      - company: Naimi.kz
-        position: iOS Entwickler
-        start_date: 2016-06
-        end_date: 2016-08
-        location: Astana, Kasachstan
+        location: Berlin, Deutschland
         highlights:
-         - "[Naimi.kz](https://apps.apple.com/us/app/naimi-kz-услуги-для-дома/id1028949260)"
+          - Bereich B2B & Health
 
-    Projekte:
-      - name: "[pixometer team](https://pixometer.io/loesungen/netzbetreiber/)"
+      - company: pixolus GmbH
+        position: iOS-Entwickler
+        start_date: 2017-10
+        end_date: 2025-12
         location: Köln, Deutschland
-        summary: Mobile Zählerableselösung für die Energiewirtschaft
+        summary: "**[pixometer team](https://pixometer.io/loesungen/netzbetreiber/)**, das Hauptprodukt des Unternehmens: mobile Zählerablesung für die Energiewirtschaft"
         highlights:
-          - Entwicklung einer iOS-App für die automatische Zählerablesung von Strom-, Gas-, Wasser- und Wärmezählern
-          - Integration von pixometerSDK für fortschrittliches Barcode-Scannen und Digitalisierung von Zählerständen
-          - Implementierung der Offline-Funktionalität mit automatischer Backend-Synchronisation für Gebiete ohne Internetverbindung
-          - Entwicklung eines Kartennavigationssystems, das die Ableser zu bestimmten Orten führt
-          - Automatisierte CI/CD-Pipeline einschließlich TestFlight-Bereitstellung und Screenshot-Generierung
-          - Entwicklung umfassender Unit- und UI-Tests für die Qualitätssicherung
+          - Entwicklung der iOS-App zur automatischen Ablesung von Strom-, Gas-, Wasser- und Wärmezählern
+          - Integration von pixometerSDK für Barcode-Scan und kamerabasierte Zählerstanderkennung
+          - Implementierung eines Offline-Modus mit automatischer Backend-Synchronisation für Gebiete ohne Netz
+          - Entwicklung einer Kartennavigation, die Ableser zu jedem Zählerstandort führt
+          - Automatisierung der CI/CD-Pipeline inklusive TestFlight-Auslieferung und Screenshot-Generierung
+          - Absicherung der zentralen Abläufe der App durch Unit- und UI-Tests
+          - "Außerdem veröffentlicht: [pixometer self](https://apps.apple.com/de/app/pixometer-self/id6444455680), [MeterCollect Ableser-App](https://apps.apple.com/de/app/metercollect-ablese-app/id1528505813)"
 
-      - name: "[eVIDENCE](https://pixolus.de/evidence/)"
+      - company: pixolus GmbH
+        position: iOS-Entwickler
         start_date: 2020-01
         end_date: 2023-01
         location: Köln, Deutschland
-        summary: iOS-Entwicklung für staatlich gefördertes Projekt zur Digitalisierung des Energieverbrauchs
+        summary: "Forschungsprojekt **[eVIDENCE](https://pixolus.de/evidence.html)**: Digitalisierung des Energieverbrauchs"
         highlights:
-          - Entwicklung einer iOS-Lösung mit SwiftUI in Zusammenarbeit mit der STRABAG AG für ein staatlich gefördertes Projekt
-          - Mitarbeit an der Funktionalität zur Messung des Strom- und Treibstoffverbrauchs und dem Datenexport
+          - Entwicklung einer staatlich geförderten SwiftUI-App in Kooperation mit der STRABAG AG
+          - Umsetzung der Messung von Strom- und Kraftstoffverbrauch inklusive Datenexport
 
-      - name: "[KOMEET](https://pixolus.de/komeet/)"
+      - company: pixolus GmbH
+        position: iOS-Entwickler
         start_date: 2017-10
         end_date: 2020-02
         location: Köln, Deutschland
-        summary: iOS-App zur Verwaltung von Patientendaten für Intensivstationen
+        summary: "Forschungsprojekt **[KOMEET](https://pixolus.de/komeet.html)**: Verwaltung von Patientendaten für Intensivstationen"
         highlights:
-          - Entwicklung einer iOS-App mit Offline-Speicherung von Core Data, verschlüsselter Synchronisierung und nativer JavaScript-Brücke für die Verwaltung von Patientendaten in Krankenhäusern
-          - Integration des leserSDK-Frameworks zur Erfassung von Vitaldaten von nicht angeschlossenen medizinischen Geräten (Blutdruck, Sauerstoffsättigung, Herzfrequenzmessung)
-          - Entwicklung modularer Schnittstellenkomponenten, die die Integration mehrerer medizinischer Systeme mit nahtloser Online-/Offline-Datenpersistenz unterstützen
+          - Entwicklung der iOS-App mit Core-Data-Offline-Speicherung, verschlüsselter Synchronisation und JavaScript-Brücke
+          - Integration von leserSDK zur kamerabasierten Erfassung von Vitaldaten nicht vernetzter Medizingeräte
+          - Entwurf modularer Schnittstellen zur Anbindung mehrerer Kliniksysteme, online wie offline
 
-      - name: "[Naimi.kz](https://apps.apple.com/us/app/naimi-kz-услуги-для-дома/id1028949260)"
+      - company: "[Naimi.kz](https://apps.apple.com/us/app/naimi-kz-услуги-для-дома/id1028949260)"
+        position: iOS-Entwickler
         start_date: 2016-06
         end_date: 2016-08
         location: Astana, Kasachstan
-        summary: On-Demand-Hausdienstleistungs-Marktplatz-App für Kasachstan
         highlights:
-          - Altes MVC-Codebase auf VIPER-Architektur in Swift umgestellt, um Modularität und Testbarkeit zu verbessern
-          - Zusammenarbeit in einem agilen, funktionsübergreifenden Team für iterative Entwicklung und Auslieferung
-          - Verwaltung der App-Bereitstellungspipeline und Mentoring von Junior-iOS-Entwicklern zu Best Practices
+          - Umstellung der Marktplatz-App von MVC auf VIPER in Swift und Verantwortung für die App-Store-Auslieferung
 
-    Bildung:
+    Ausbildung:
       - institution: Hochschule Rhein-Waal
         area: Information Engineering and Computer Science
         degree: M.Sc.
@@ -81,149 +75,36 @@ cv:
         area: Computing Systems and Software
         degree: B.Sc.
         start_date: 2012-09
-        end_date: 2026-06
+        end_date: 2016-06
         location: Almaty, Kasachstan
-    
-    Fähigkeiten:
-      - label: Meine Umgebung
-        details: Swift, SwiftUI, UIKit, XCTest, iOS SDK, CoreData, Objective-C, SwiftData, RxSwift, Combine, React, DevSecOps, Automation
-      - label: Sprachen
-        details: "Kasachisch (Muttersprache), Russisch (Muttersprache), Deutsch (fließend), Englisch (fortgeschritten), Türkisch (Grundkenntnisse)"
 
-    Außercurriculare Aktivitäten:
-      - bullet: Schwimmen, Bouldern, Snowboarden, Reisen, Cyber Security, Hausautomation
-    
-design:
-  theme: engineeringresumes
-  page:
-    size: a4
-    top_margin: 1.5cm
-    bottom_margin: 1.5cm
-    left_margin: 1.5cm
-    right_margin: 1.5cm
-    show_page_numbering: true
-    show_last_updated_date: true
-  colors:
-    text: rgb(0, 0, 0)
-    name: rgb(0, 0, 0)
-    connections: rgb(0, 0, 0)
-    section_titles: rgb(0, 0, 0)
-    links: rgb(0, 0, 0)
-    last_updated_date_and_page_numbering: rgb(128, 128, 128)
-  text:
-    font_family: XCharter
-    font_size: 10pt
-    leading: 0.6em
-    alignment: justified
-    date_and_location_column_alignment: right
-  links:
-    underline: false
-    use_external_link_icon: true
-  header:
-    name_font_family: XCharter
-    name_font_size: 16pt
-    name_bold: false
-    photo_width: 3.5cm
-    vertical_space_between_name_and_connections: 0.5cm
-    vertical_space_between_connections_and_first_section: 0.5cm
-    horizontal_space_between_connections: 0.5cm
-    connections_font_family: XCharter
-    separator_between_connections: '|'
-    use_icons_for_connections: true
-    alignment: center
-  section_titles:
-    type: with-parial-line
-    font_family: XCharter
-    font_size: 1.2em
-    bold: true
-    small_caps: false
-    line_thickness: 0.5pt
-    vertical_space_above: 0.55cm
-    vertical_space_below: 0.3cm
-    line_type: with-full-line
-  entries:
-    date_and_location_width: 4.15cm
-    left_and_right_margin: 0cm
-    horizontal_space_between_columns: 0.1cm
-    vertical_space_between_entries: 0.4cm
-    allow_page_break_in_sections: true
-    allow_page_break_in_entries: true
-    short_second_row: false
-    show_time_spans_in: []
-  highlights:
-    bullet: •
-    top_margin: 0.25cm
-    left_margin: 0cm
-    vertical_space_between_highlights: 0.19cm
-    horizontal_space_between_bullet_and_highlight: 0.3em
-    summary_left_margin: 0cm
-  entry_types:
-    one_line_entry:
-      template: '**LABEL:** DETAILS'
-    education_entry:
-      main_column_first_row_template: '**INSTITUTION**, *DEGREE AREA* -- LOCATION'
-      degree_column_template:
-      degree_column_width: 1cm
-      main_column_second_row_template: |-
-        SUMMARY
-        HIGHLIGHTS
-      date_and_location_column_template: DATE
-    normal_entry:
-      main_column_first_row_template: '**NAME** -- **LOCATION**'
-      main_column_second_row_template: |-
-        SUMMARY
-        HIGHLIGHTS
-      date_and_location_column_template: DATE
-    experience_entry:
-      main_column_first_row_template: '**POSITION**, COMPANY -- LOCATION'
-      main_column_second_row_template: |-
-        SUMMARY
-        HIGHLIGHTS
-      date_and_location_column_template: DATE
+    Fähigkeiten:
+      - label: iOS
+        details: Swift, Objective-C, SwiftUI, UIKit, Combine, RxSwift, Core Data, SwiftData
+      - label: Qualität & Auslieferung
+        details: XCTest, UI-Tests, Fastlane, CI/CD, DevSecOps
+      - label: KI-Workflows
+        details: Cursor, Claude Code, MCP, agentenbasierte Implementierung, Tests und Code-Reviews
+      - label: Sonstiges
+        details: React, JavaScript, Python
+      - label: Sprachen
+        details: "Kasachisch (Muttersprache), Russisch (Muttersprache), Englisch (fließend), Deutsch (sehr gute Kenntnisse), Türkisch (Grundkenntnisse)"
+      - label: Interessen
+        details: Schwimmen, Bouldern, Snowboarden, Reisen, Cyber Security, Hausautomation
 
 locale:
-  language: de
-  phone_number_format: international
-  page_numbering_template: NAME - Seite PAGE_NUMBER von TOTAL_PAGES
-  last_updated_date_template: Zuletzt aktualisiert am TODAY
-  date_template: MONTH_ABBREVIATION YEAR
-  month: Monat
-  months: Monate
-  year: Jahr
-  years: Jahre
+  language: german
+  last_updated: Zuletzt aktualisiert im
   present: aktuell
-  to: –
-  abbreviations_for_months:
-    - Jan
-    - Feb
-    - Mär
-    - Apr
-    - Mai
-    - Juni
-    - Juli
-    - Aug
-    - Sep
-    - Okt
-    - Nov
-    - Dez
-  full_names_of_months:
-    - Januar
-    - Februar
-    - März
-    - April
-    - Mai
-    - Juni
-    - Juli
-    - August
-    - September
-    - Oktober
-    - November
-    - Dezember
-rendercv_settings:
-  date: "2025-06-28"
+  phrases:
+    degree_with_area: DEGREE AREA
+
+settings:
   bold_keywords: []
   render_command:
-    output_folder_name: output
+    design: design.yaml
+    output_folder: output
+    typst_path: output/Adil_Yergaliyev_DE.typ
     pdf_path: output/Adil_Yergaliyev_DE.pdf
     dont_generate_html: true
     dont_generate_markdown: true

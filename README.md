@@ -15,7 +15,7 @@ I build with AI in the loop. Coding agents write most of the code; I own the arc
 
 ## Experience 🚀
 
-- **Freenow by Lyft** (2026–now): B2B & Health
+- **Freenow by Lyft** (2026–now): B2B ride features, [digital medical rides](https://www.tk.de/presse/themen/digitale-gesundheit/digitaler-fortschritt/digitale-krankenfahrten-pilot-muenchen-2226864) with Techniker Krankenkasse, and the migration to the Lyft stack
 - **pixolus** (2017–2025): [pixometer team](https://pixometer.io/loesungen/netzbetreiber/) for the energy industry, plus research projects [eVIDENCE](https://pixolus.de/evidence.html) and [KOMEET](https://pixolus.de/komeet.html)
 - **[Naimi.kz](https://apps.apple.com/us/app/naimi-kz-услуги-для-дома/id1028949260)** (2016): home services marketplace
 

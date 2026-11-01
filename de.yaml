@@ -16,7 +16,9 @@ cv:
         end_date: present
         location: Berlin, Deutschland
         highlights:
-          - Bereich B2B & Health
+          - "Health: Entwicklung [digitaler Krankenfahrten](https://www.tk.de/presse/themen/digitale-gesundheit/digitaler-fortschritt/digitale-krankenfahrten-pilot-muenchen-2226864) mit der Techniker Krankenkasse (TK), live in Hamburg, Berlin und München: Versicherte buchen genehmigte Fahrten in der Freenow-App, abgerechnet direkt mit der TK"
+          - "B2B: Verbesserung des Fahrerlebnisses für Geschäftskunden durch neue Produktfeatures"
+          - Integration und Migration der App auf den Lyft-Tech-Stack
 
       - company: pixolus GmbH
         position: iOS-Entwickler

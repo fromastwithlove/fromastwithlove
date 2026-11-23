@@ -1,8 +1,8 @@
 # rendercv[full]==2.8 with its full dependency tree pinned (Python 3.13)
-annotated-doc==0.0.6
+annotated-doc==0.0.7
 annotated-types==0.8.0
 dnspython==2.9.2
-email-validator==2.3.0
+email-validator==2.4.0
 idna==3.20
 Jinja2==3.1.6
 Markdown==3.11.3
@@ -11,16 +11,16 @@ MarkupSafe==3.0.4
 mdurl==0.1.2
 packaging==26.3
 phonenumbers==9.0.43
-pydantic==2.14.3
+pydantic==2.14.4
 pydantic-extra-types==2.11.1
-pydantic_core==2.50.4
+pydantic_core==2.50.5
 Pygments==2.21.0
 rendercv==2.8
 rendercv-fonts==0.5.1
 rich==15.0.0
 ruamel.yaml==0.19.1
 shellingham==1.5.4
-typer==0.29.1
+typer==0.29.2
 typing-inspection==0.4.5
 typing_extensions==4.16.0
 typst==0.15.2
